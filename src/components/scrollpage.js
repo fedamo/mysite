@@ -4,7 +4,7 @@ import Header from './header';
 import Resume from './resume';
 import SkillComponents from './SkillComponent';
 import SkillSection from './SkillSection';
-import navButtons from './navButtons';
+
 
 
 
