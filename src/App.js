@@ -13,8 +13,8 @@ import "./styles/fonts.css";
 import "./styles/vendor.css";
 import SkillSection from "./components/SkillSection";
 import Resume from "./components/resume";
-import Projects from './components/projects';
 import NavigationLinks from './components/NavigationLinks';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
@@ -25,7 +25,7 @@ class App extends Component {
             <Route exact path="/" component={Header} />
             <Route path="/about" component={SkillSection} />
             <Route path="/resume" component={Resume} />
-            <Router path = '/projects' component={Projects} />
+            <Route path="/projects" component={Projects}/>
           </TransitionSwitch>
         </Router>
       </div>

@@ -7,10 +7,8 @@ class NavigationLinks extends Component {
     return (
       <div className="navigation-links">
         <ul>
-          {" "}
           <li>
             <i
-              i
               onMouseEnter={this.play}
               className="fa-flag1 fa fa-circle-o-notch fa-spin fa-1x fa-fw"
               aria-hidden="true"
@@ -19,7 +17,6 @@ class NavigationLinks extends Component {
           </li>
           <li>
             <i
-              i
               onMouseEnter={this.play}
               className="fa-flag1 fa fa-circle-o-notch fa-spin fa-1x fa-fw"
               aria-hidden="true"
@@ -28,7 +25,6 @@ class NavigationLinks extends Component {
           </li>
           <li>
             <i
-              i
               onMouseEnter={this.play}
               className="fa-flag1 fa fa-circle-o-notch fa-spin fa-1x fa-fw"
               aria-hidden="true"
@@ -37,7 +33,6 @@ class NavigationLinks extends Component {
           </li>
           <li>
             <i
-              i
               onMouseEnter={this.play}
               className="fa-flag1 fa fa-circle-o-notch fa-spin fa-1x fa-fw"
               aria-hidden="true"

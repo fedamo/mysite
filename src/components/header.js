@@ -3,7 +3,6 @@ import ReactRevealText from "react-reveal-text";
 import Fade from "react-reveal/Fade";
 import SectionLinks from "./sectionlinks";
 
-
 class Header extends Component {
   constructor() {
     super();
@@ -29,7 +28,7 @@ class Header extends Component {
           <div className="bgStyles">
             <h1>
               <ReactRevealText className="textStyles" show={this.state.show}>
-                WELCOME TO MY SITE
+                WHERE WOULD YOU LIKE TO BEGIN?
               </ReactRevealText>
             </h1>
 

@@ -45,7 +45,6 @@ class SectionLinks extends Component {
           {/* LinkedIn */}
           <a className="link-icons">
             <Link to="/about">
-              {" "}
               <i
                 onMouseEnter={this.play}
                 className="fa-flag fa fa-circle-o-notch fa-spin fa-3x fa-fw"
@@ -56,16 +55,9 @@ class SectionLinks extends Component {
           </a>
 
           {/* Github */}
-          <a
-            className="link-icons"
-            href="http://google.com"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <a className="link-icons" target="_blank">
             <Link to="/resume">
-              {" "}
               <i
-                i
                 onMouseEnter={this.play}
                 className="fa-flag1 fa fa-circle-o-notch fa-spin fa-3x fa-fw"
                 aria-hidden="true"
@@ -75,32 +67,20 @@ class SectionLinks extends Component {
           </a>
 
           {/* Freecodecamp */}
-          <a
-            className="link-icons"
-            href="http://google.com"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-          <Link to="/projects">
-            <i
-              i
-              onMouseEnter={this.play}
-              className="fa-flag2 fa fa-circle-o-notch fa-spin fa-3x fa-fw"
-              aria-hidden="true"
-            />
+          <a className="link-icons" target="_blank">
+            <Link to="/projects">
+              <i
+                onMouseEnter={this.play}
+                className="fa-flag2 fa fa-circle-o-notch fa-spin fa-3x fa-fw"
+                aria-hidden="true"
+              />
             </Link>
             <span className="link-text">PROJECTS</span>
           </a>
 
           {/* Youtube */}
-          <a
-            className="link-icons"
-            href="http://google.com"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <a className="link-icons" target="_blank">
             <i
-              i
               onMouseEnter={this.play}
               className="fa-flag3 fa fa-circle-o-notch fa-spin fa-3x fa-fw"
               aria-hidden="true"

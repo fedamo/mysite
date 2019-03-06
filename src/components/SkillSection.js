@@ -7,8 +7,8 @@ class SkillSection extends Component {
   state = {};
   render() {
     return (
-        <div>
-          <NavigationLinks />
+      <div>
+        <NavigationLinks />
         <section id="about">
           <div className="row section-intro">
             <div className="col-twelve">

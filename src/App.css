@@ -95,12 +95,13 @@
   .textStyles  {
     color: white;
     font-size: 40px;
-    line-height: 20vh;
+    line-height: 10vh;
     font-family: sans-serif;
     text-align: center;
     vertical-align: middle;
     letter-spacing: 1em;
     padding-left: 0em; 
+    padding-bottom: 2em;
     
     
   }
@@ -238,5 +239,41 @@ margin:0;
 .navigation-links  li {
 list-style-type: none;}
 
+.cardContainer {
+    padding: 60px 15px 0;
+}
 
 
+.card-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.carddiv {
+  max-width: 430;
+  flex: 1 0 400px;
+  box-sizing: border-box;
+  margin: 1rem .5em;
+}
+
+@media screen and (min-width: 80em) {
+  .carddiv {
+     max-width: calc(60% -  1em);
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .carddiv {
+      max-width: calc(65% - 1em);
+  }
+}
