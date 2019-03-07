@@ -17,11 +17,9 @@ class Resume extends Component {
               <Fade top>
                 <div className="col-twelve">
                   <h5>Resume</h5>
-                  <h1>More of my credentials.</h1>
+                  <h1>My story so far.</h1>
                   <p className="lead">
-                    Lorem ipsum Do commodo in proident enim in dolor cupidatat
-                    adipisicing dolore officia nisi aliqua incididunt Ut veniam
-                    lorem ipsum Consectetur ut in in eu do.
+                    "There's a way to do it better. Find it"  
                   </p>
                 </div>
               </Fade>
