@@ -21,7 +21,7 @@ class NavigationLinks extends Component {
               className="fa-flag1 fa fa-circle-o-notch fa-spin fa-1x fa-fw"
               aria-hidden="true"
             />
-            <Link to="/about">ME</Link>
+            <Link to="/about">PROFILE</Link>
           </li>
           <li>
             <i
