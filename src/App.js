@@ -10,7 +10,7 @@ import "./App.css";
 import SkillSection from "./components/SkillSection";
 import Resume from "./components/resume";
 import NavigationLinks from './components/NavigationLinks';
-import Projects from './components/Projects';
+import Projects from './components/projects';
 import { createHashHistory } from 'history'
 
 const browserHistory = createHashHistory()
