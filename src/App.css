@@ -61,7 +61,7 @@
     justify-content: space-between;
     width: 65%;
     margin: auto;
-    position:absolute ; 
+    position:absolute; 
     align-content: center;
     align-items: center;
     left:68%;
@@ -98,8 +98,8 @@
     line-height: 10vh;
     font-family: sans-serif;
     text-align: center;
-    vertical-align: middle;
-    letter-spacing: 1em;
+    /* vertical-align: middle; */
+    letter-spacing: 0.4em;
     padding-left: 0em; 
     padding-bottom: 2em;
     
@@ -121,7 +121,7 @@
     right: 0;
     width: 50px;
     height: 100px;
-    z-index: -1;
+    font-size: 20
   }
 
   .fa-flag:hover {
@@ -163,7 +163,7 @@
   align-items: center;
   justify-content: center;
   padding: 0px;
-  font-size: 35px;
+  font-size: 25px;
   color: #444;
   text-decoration: none;
   font-family: sans-serif;
@@ -174,13 +174,11 @@ justify-content: space-between;
 width: 40%;
 margin: auto;
 margin-top: 0em;
-padding-bottom:1em;
+padding-bottom:0em;
 
 }
 
-body {
-  font-family: arial, helvetica;
-}
+
 
 
 
@@ -192,17 +190,6 @@ body {
   text-align: center;
 }
 
-button {
-  padding: 0.93em 1.87em;
-  background: #35495e;
-  border-radius: 5px;
-  border-color: transparent;
-  display: block;
-  color: #fff;
-  margin: 0 auto;
-  cursor: pointer;
-  font-size: 0.85em;
-}
 
 .dot {
   height: 25px;
@@ -218,7 +205,11 @@ button {
 position: fixed;
 right: 0%;
 margin:0;
-
+font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 3rem;
+  color: #35495e;
+  z-index: 1;
 }
 
 
@@ -227,7 +218,8 @@ margin:0;
   padding-left: 5px;
   color: #35495e;
   font-family: "poppins-semibold", serif;
- 
+  opacity: .8
+	
   
 }
 
@@ -256,24 +248,51 @@ list-style-type: none;}
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	width: 100%;
+  width: 100%;
+  background: #ffff;
+  height: 100%;
+  padding-left: 50px;
 }
 
 .carddiv {
-  max-width: 430;
+  max-width: 550;
   flex: 1 0 400px;
   box-sizing: border-box;
-  margin: 1rem .5em;
+  margin: 1.6rem 1.2em;
+  border: solid grey;
+  
+ 
 }
 
-@media screen and (min-width: 80em) {
+@media screen and (min-width: 50em) {
   .carddiv {
-     max-width: calc(60% -  1em);
+     max-width: calc(50% -  1em);
   }
 }
 
-@media screen and (min-width: 80em) {
+@media screen and (min-width: 50em) {
   .carddiv {
-      max-width: calc(65% - 1em);
+      max-width: calc(50% - 1em);
   }
 }
+
+
+.resume-body {
+
+  background: white;
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: #6e6e6e;
+}
+
+.skills-body {
+  background: white;
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: #6e6e6e;
+}
+
+
+

@@ -9,6 +9,7 @@ export default {
     {
       title: 'Marketing KPI Dashboard',
       img: chaosImg,
+      imgUrl: "url(" + ppcImg + ")",
       summary: 'Tools: Python / React / HTML / JS',
       desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
       gitLink:'http://www.github.com/fedamo',
@@ -19,6 +20,7 @@ export default {
     },{
       title: 'Analysis of Product Sales',
       img: barImg,
+      imgUrl: "url(" + barImg + ")",
       summary: 'Tools: Python',
       desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
       gitLink:'http://www.github.com/fedamo',
@@ -30,6 +32,7 @@ export default {
     {
       title: 'Algorithm Testing',
       img: algoImg,
+      imgUrl: "url(" + algoImg + ")",
       summary: 'Python / React / HTML / JS',
       desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
       gitLink:'http://www.github.com/fedamo',
@@ -41,6 +44,7 @@ export default {
     {
       title: 'My Website',
       img: resumeImg,
+      imgUrl: "url(" + chaosImg + ")",
       summary: 'Python / React / HTML / JS',
       desc: 'A simple React app to present my analytics portfolio and professional resume online',
       gitLink:'http://www.github.com/fedamo',
@@ -67,36 +71,6 @@ export default {
       demoLink: 'http://www.github.com',
       avatarLabel:'Recipe',
       avatarLetter:'P',
-      avatarColor: 'red'
-    },{
-      title: 'Marketing KPI Dashboard',
-      img: chaosImg,
-      summary: 'Python / React / HTML / JS',
-      desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
-      gitLink:'http://www.github.com/fedamo',
-      demoLink: 'http://www.github.com',
-      avatarLabel:'Recipe',
-      avatarLetter:'R',
-      avatarColor: 'red'
-    },{
-      title: 'Marketing KPI Dashboard',
-      img: chaosImg,
-      summary: 'Python / React / HTML / JS',
-      desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
-      gitLink:'http://www.github.com/fedamo',
-      demoLink: 'http://www.github.com',
-      avatarLabel:'Recipe',
-      avatarLetter:'R',
-      avatarColor: 'red'
-    },{
-      title: 'Marketing KPI Dashboard',
-      img: chaosImg,
-      summary: 'Python / React / HTML / JS',
-      desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
-      gitLink:'http://www.github.com/fedamo',
-      demoLink: 'http://www.github.com',
-      avatarLabel:'Recipe',
-      avatarLetter:'V',
       avatarColor: 'red'
     },
   ],

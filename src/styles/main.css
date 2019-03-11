@@ -69,13 +69,7 @@ html {
 html, body {
 	height: 100%;
 }
-body {
-	background: white;
-	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
-	line-height: 3rem;
-	color: #6e6e6e;
-}
+
 
 /**
  * links - (_document-setup.scss)
@@ -1483,11 +1477,11 @@ header .logo {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
-	border-radius: 30%;
-	margin: .9rem 0 0 0;
-	float: left;
+	height: 10rem;
+	width: 10rem;
+	border-radius: 70%;
+	margin: 0rem;
+	float: left ;
 }
 .intro-info .lead {
 	text-align: left;
@@ -1600,7 +1594,7 @@ header .logo {
  * ------------------------------------------------------------------- 
  */
 #resume {
-	padding-top: 4rem;
+	padding-top: 3rem;
 	padding-bottom: 12rem;
 }
 

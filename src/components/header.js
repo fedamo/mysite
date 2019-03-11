@@ -28,8 +28,9 @@ class Header extends Component {
           <div className="bgStyles">
             <h1>
               <ReactRevealText className="textStyles" show={this.state.show}>
-                WHERE WOULD YOU LIKE TO BEGIN?
+              thinking,  reading, exploring, designing, analyzing,
               </ReactRevealText>
+              
             </h1>
 
             <Fade bottom>

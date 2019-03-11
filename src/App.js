@@ -7,20 +7,19 @@ import Scroll from "./components/scrollpage";
 import Fade from "react-reveal/Fade";
 import Header from "./components/header";
 import "./App.css";
-import "./styles/base.css";
-import "./styles/main.css";
-import "./styles/fonts.css";
-import "./styles/vendor.css";
 import SkillSection from "./components/SkillSection";
 import Resume from "./components/resume";
 import NavigationLinks from './components/NavigationLinks';
 import Projects from './components/Projects';
+import { createHashHistory } from 'history'
+
+const browserHistory = createHashHistory()
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory} >
           <TransitionSwitch fadeInTransitionDuration={10} component={Fader}>
             <Route exact path="/" component={Header} />
             <Route path="/about" component={SkillSection} />

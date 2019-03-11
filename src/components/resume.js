@@ -4,23 +4,28 @@ import Zoom from "react-reveal/Zoom";
 import SectionLinks from "./sectionlinks";
 import NavigationLinks from "./NavigationLinks";
 import Reveal from "react-reveal/Reveal";
+import "../styles/base.css";
+import "../styles/main.css";
+import "../styles/fonts.css";
+import "../styles/vendor.css";
 
 class Resume extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   state = {};
   render() {
     return (
       <div>
-        <div>
+        <div className = 'resume-body'>
           <NavigationLinks />
           <section id="resume" className="grey-section">
-            <div className="row section-intro">
+            <div className="row section-intro" style={{marginBottom:0}}>
               <Fade top>
-                <div className="col-twelve">
+                <div className="col-twelve" >
                   <h5>Resume</h5>
-                  <h1>My story so far.</h1>
-                  <p className="lead">
-                    "There's a way to do it better. Find it"  
-                  </p>
+                  <h1>Experience & Education.</h1>
+                  
                 </div>
               </Fade>
             </div>

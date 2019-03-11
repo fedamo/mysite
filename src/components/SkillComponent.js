@@ -2,18 +2,48 @@ import React, { Component } from "react";
 import Plot from "react-plotly.js";
 
 var trace1 = {
-  x: [33, 33, 33, 33, 33],
-  y: ["java  ", "Python  ", "HTML  ", "Excel  ", "SQL  "],
+  x: [25, 
+      70, 
+      60, 
+      30, 
+      30, 
+      40, 
+      25, 
+      30, 
+      30, 
+      40],
+  y: ["R  ",
+      "SQL  ",
+      "Python  ",
+      "JSON  ",
+      "d3.js  ",
+      "plotly",
+      "JS  ",
+      "HTML  ",
+      "css  ",
+      "React  " ],
+      width:[0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1],
   name: "Life to Date",
   type: "bar",
   mode: "lines+markers",
   marker: { color: " #2C3E50" },
-  orientation: "h"
+  orientation: "h",
+  
 };
 
 var trace2 = {
-  x: [66, 66, 66, 66, 66],
-  y: ["java  ", "Python  ", "HTML  ", "Excel  ", "SQL  "],
+  x: [75, 30, 40, 70, 70, 60, 75, 70, 70, 60],
+  y: ["R  ",
+  "SQL  ",
+  "Python  ",
+  "JSON  ",
+  "d3.js  ",
+  "plotly",
+  "JS  ",
+  "HTML  ",
+  "css  ",
+  "React  " ],
+  width:[0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1],
   name: "Target",
   type: "bar",
   mode: "text",
@@ -23,9 +53,9 @@ var trace2 = {
 };
 
 var trace3 = {
-  x: [0, 33, 66, 100],
-  y: ["", "", "", ""],
-  text: ["Basic", "Intermediate", "Advanced", "Expert"],
+  x: [0, 25, 50, 75, 100],
+  y: ["", "", "", "", ""],
+  text: ["", "Basic", "Intermediate", "Advanced", "Expert"],
   textposition: "bottom center",
   mode: "text+markers+lines",
   hoverinfo: "x",
@@ -41,7 +71,7 @@ class SkillComponents extends Component {
       data: [trace3, trace1, trace2],
       layout: {
         width: "100vw",
-        height: "100vh",
+        height: "90vh",
         showline: false,
         margin: { l: 60, r: 250, b: 100, t: 0, pad: 0 },
         shapes: [
@@ -58,9 +88,9 @@ class SkillComponents extends Component {
           },
           {
             type: "line",
-            x0: 33,
+            x0: 25,
             y0: 0,
-            x1: 33,
+            x1: 25,
             y1: 0.5,
             line: {
               color: "black",
@@ -69,9 +99,20 @@ class SkillComponents extends Component {
           },
           {
             type: "line",
-            x0: 66,
+            x0: 50,
             y0: 0,
-            x1: 66,
+            x1: 50,
+            y1: 0.5,
+            line: {
+              color: "black",
+              width: 0.2
+            }
+          },
+          {
+            type: "line",
+            x0: 75,
+            y0: 0,
+            x1: 75,
             y1: 0.5,
             line: {
               color: "black",

@@ -51,7 +51,7 @@ class SectionLinks extends Component {
                 aria-hidden="true"
               />
             </Link>
-            <span className="link-text">ME</span>
+            <span className="link-text">PROFILE</span>
           </a>
 
           {/* Github */}
