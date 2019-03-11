@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "41b61885be97a51f49f2da5ddde74a80",
-    "url": "/mysite/static/media/poppins-light-webfont.41b61885.ttf"
+    "revision": "e78b58577728abb68d9bd9c38de9a40f",
+    "url": "/mysite/static/media/poppins-light-webfont.e78b5857.svg"
   },
   {
     "revision": "3f222e53b403c9aa71d0",
@@ -52,60 +52,60 @@ self.__precacheManifest = [
     "url": "/mysite/static/media/lora-bold-webfont.f2090140.svg"
   },
   {
-    "revision": "57b3c189deaf9ce5a8353ce748227d87",
-    "url": "/mysite/static/media/lora-bolditalic-webfont.57b3c189.svg"
-  },
-  {
-    "revision": "63f6ee0f600a54684190896e8d83f9de",
-    "url": "/mysite/static/media/lora-bolditalic-webfont.63f6ee0f.ttf"
+    "revision": "155fed8a12566558b5c3742bf48cbf23",
+    "url": "/mysite/static/media/lora-bolditalic-webfont.155fed8a.eot"
   },
   {
     "revision": "a1b0823d2c202c4dfccea7bd9d00eb00",
     "url": "/mysite/static/media/lora-bolditalic-webfont.a1b0823d.woff"
   },
   {
+    "revision": "57b3c189deaf9ce5a8353ce748227d87",
+    "url": "/mysite/static/media/lora-bolditalic-webfont.57b3c189.svg"
+  },
+  {
     "revision": "5840a3fc3fc7f1cf9622e04b0f4292fc",
     "url": "/mysite/static/media/lora-italic-webfont.5840a3fc.eot"
+  },
+  {
+    "revision": "63f6ee0f600a54684190896e8d83f9de",
+    "url": "/mysite/static/media/lora-bolditalic-webfont.63f6ee0f.ttf"
   },
   {
     "revision": "98a9fc27d576ea195ead28f8a9d4ffa1",
     "url": "/mysite/static/media/lora-italic-webfont.98a9fc27.woff"
   },
   {
-    "revision": "980aae3a10d1e193ff527123af76898d",
-    "url": "/mysite/static/media/lora-italic-webfont.980aae3a.ttf"
-  },
-  {
     "revision": "8541664ae124b8e5df7d1af7ff907c7b",
     "url": "/mysite/static/media/lora-regular-webfont.8541664a.eot"
   },
   {
-    "revision": "6fa739668250bb6ebac27e2081158a33",
-    "url": "/mysite/static/media/lora-italic-webfont.6fa73966.svg"
+    "revision": "980aae3a10d1e193ff527123af76898d",
+    "url": "/mysite/static/media/lora-italic-webfont.980aae3a.ttf"
   },
   {
     "revision": "970ef6b8c13b9c0b50dc343c15f1576d",
     "url": "/mysite/static/media/lora-regular-webfont.970ef6b8.woff"
   },
   {
-    "revision": "cf6207b3420b4c3643429addddb78eaa",
-    "url": "/mysite/static/media/lora-regular-webfont.cf6207b3.ttf"
-  },
-  {
     "revision": "aa98aff4d8d942f77b6dbbbcf5a5bc46",
     "url": "/mysite/static/media/poppins-bold-webfont.aa98aff4.eot"
   },
   {
-    "revision": "a492e3a57d2d33657da36c1521fedb94",
-    "url": "/mysite/static/media/lora-regular-webfont.a492e3a5.svg"
+    "revision": "6fa739668250bb6ebac27e2081158a33",
+    "url": "/mysite/static/media/lora-italic-webfont.6fa73966.svg"
   },
   {
-    "revision": "13e9632bec05847de11bebb9de5ef1cf",
-    "url": "/mysite/static/media/poppins-bold-webfont.13e9632b.woff2"
+    "revision": "cf6207b3420b4c3643429addddb78eaa",
+    "url": "/mysite/static/media/lora-regular-webfont.cf6207b3.ttf"
   },
   {
     "revision": "c7422667d745ba2ce731f4765c15bb49",
     "url": "/mysite/static/media/poppins-bold-webfont.c7422667.woff"
+  },
+  {
+    "revision": "13e9632bec05847de11bebb9de5ef1cf",
+    "url": "/mysite/static/media/poppins-bold-webfont.13e9632b.woff2"
   },
   {
     "revision": "47a731ab9f21cd153d181fad8dd76af6",
@@ -116,52 +116,56 @@ self.__precacheManifest = [
     "url": "/mysite/static/media/poppins-bold-webfont.d6911acd.svg"
   },
   {
-    "revision": "07ed5067561480f15fbd65bafab7a2f4",
-    "url": "/mysite/static/media/poppins-light-webfont.07ed5067.woff2"
-  },
-  {
     "revision": "44967092131b2de5a9983c76372f0933",
     "url": "/mysite/static/media/poppins-light-webfont.44967092.woff"
   },
   {
-    "revision": "954f16b87b54ed7c7d526c39625c459c",
-    "url": "/mysite/static/media/poppins-medium-webfont.954f16b8.woff2"
-  },
-  {
-    "revision": "3f222e53b403c9aa71d0",
-    "url": "/mysite/static/js/main.3f222e53.chunk.js"
-  },
-  {
-    "revision": "f42126601d14d9bd1eab8b63196d07cc",
-    "url": "/mysite/static/media/poppins-medium-webfont.f4212660.woff"
+    "revision": "07ed5067561480f15fbd65bafab7a2f4",
+    "url": "/mysite/static/media/poppins-light-webfont.07ed5067.woff2"
   },
   {
     "revision": "4100316d96394f75a9797bd00eda2450",
     "url": "/mysite/static/media/poppins-light-webfont.4100316d.eot"
   },
   {
-    "revision": "edf51fd850bb3bdc3cf567d7b6023fee",
-    "url": "/mysite/static/media/poppins-medium-webfont.edf51fd8.svg"
+    "revision": "3f222e53b403c9aa71d0",
+    "url": "/mysite/static/js/main.3f222e53.chunk.js"
   },
   {
-    "revision": "4ee1e1689a0d398066672356c35a3f4e",
-    "url": "/mysite/static/media/poppins-medium-webfont.4ee1e168.ttf"
+    "revision": "954f16b87b54ed7c7d526c39625c459c",
+    "url": "/mysite/static/media/poppins-medium-webfont.954f16b8.woff2"
+  },
+  {
+    "revision": "41b61885be97a51f49f2da5ddde74a80",
+    "url": "/mysite/static/media/poppins-light-webfont.41b61885.ttf"
+  },
+  {
+    "revision": "f42126601d14d9bd1eab8b63196d07cc",
+    "url": "/mysite/static/media/poppins-medium-webfont.f4212660.woff"
+  },
+  {
+    "revision": "faf3fb02dbbf32176b67986efe042c24",
+    "url": "/mysite/static/media/poppins-medium-webfont.faf3fb02.eot"
   },
   {
     "revision": "8112c2ad6ff2535b458a2ae5fac8e644",
     "url": "/mysite/static/media/poppins-regular-webfont.8112c2ad.eot"
   },
   {
+    "revision": "4ee1e1689a0d398066672356c35a3f4e",
+    "url": "/mysite/static/media/poppins-medium-webfont.4ee1e168.ttf"
+  },
+  {
     "revision": "cd8ad1522c0410b8ceda219c25c59308",
     "url": "/mysite/static/media/poppins-regular-webfont.cd8ad152.woff2"
   },
   {
-    "revision": "42a25c26425cbb63724bc85017b14e1b",
-    "url": "/mysite/static/media/poppins-regular-webfont.42a25c26.woff"
+    "revision": "edf51fd850bb3bdc3cf567d7b6023fee",
+    "url": "/mysite/static/media/poppins-medium-webfont.edf51fd8.svg"
   },
   {
-    "revision": "10bea4c9ad6b672655bc3e4f57cd351d",
-    "url": "/mysite/static/media/poppins-regular-webfont.10bea4c9.svg"
+    "revision": "42a25c26425cbb63724bc85017b14e1b",
+    "url": "/mysite/static/media/poppins-regular-webfont.42a25c26.woff"
   },
   {
     "revision": "83398fdec6508e339feb6aa038929418",
@@ -172,8 +176,12 @@ self.__precacheManifest = [
     "url": "/mysite/static/media/poppins-semibold-webfont.a43dfb37.eot"
   },
   {
-    "revision": "faf3fb02dbbf32176b67986efe042c24",
-    "url": "/mysite/static/media/poppins-medium-webfont.faf3fb02.eot"
+    "revision": "f98c932e843c0cd0fc3cf41a7fab1a3e",
+    "url": "/mysite/static/media/poppins-semibold-webfont.f98c932e.woff2"
+  },
+  {
+    "revision": "10bea4c9ad6b672655bc3e4f57cd351d",
+    "url": "/mysite/static/media/poppins-regular-webfont.10bea4c9.svg"
   },
   {
     "revision": "364d921a8c69f5373311b38ca6e976d8",
@@ -184,20 +192,12 @@ self.__precacheManifest = [
     "url": "/mysite/static/media/poppins-semibold-webfont.1b69b94b.ttf"
   },
   {
-    "revision": "f98c932e843c0cd0fc3cf41a7fab1a3e",
-    "url": "/mysite/static/media/poppins-semibold-webfont.f98c932e.woff2"
-  },
-  {
-    "revision": "155fed8a12566558b5c3742bf48cbf23",
-    "url": "/mysite/static/media/lora-bolditalic-webfont.155fed8a.eot"
-  },
-  {
     "revision": "50999637beacd2925d402c948085b7e8",
     "url": "/mysite/static/media/poppins-semibold-webfont.50999637.svg"
   },
   {
-    "revision": "e78b58577728abb68d9bd9c38de9a40f",
-    "url": "/mysite/static/media/poppins-light-webfont.e78b5857.svg"
+    "revision": "a492e3a57d2d33657da36c1521fedb94",
+    "url": "/mysite/static/media/lora-regular-webfont.a492e3a5.svg"
   },
   {
     "revision": "8ba3d2f45fb8fb79875871d14df2c703",
