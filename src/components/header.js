@@ -26,13 +26,15 @@ class Header extends Component {
       <div>
         <div onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
           <div className="bgStyles">
-            <h1>
+          
+            <h1 >
               <ReactRevealText className="textStyles" show={this.state.show}>
-              thinking,  reading, exploring, designing, analyzing,
+              thinking, reading, explaining, analyzing, designing, 
               </ReactRevealText>
               
             </h1>
-
+       
+           
             <Fade bottom>
               <SectionLinks />
             </Fade>

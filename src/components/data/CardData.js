@@ -3,20 +3,25 @@ import chaosImg from '../images/chaos.png.png';
 import barImg from '../images/BarChart.png';
 import resumeImg from '../images/resumeSample.PNG';
 import algoImg from '../images/algoImg.png';
+import dashgif from '../images/dashboardgif.gif';
 
 export default {
   cardData: [
     {
       title: 'Marketing KPI Dashboard',
-      img: chaosImg,
-      imgUrl: "url(" + ppcImg + ")",
-      summary: 'Tools: Python / React / HTML / JS',
+      img: dashgif,
+      imgUrl: "url(" + dashgif + ")",
+      summary: "Tools: Python / React / HTML / CSS / JS / Plotly / JSON" ,
       desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
-      gitLink:'http://www.github.com/fedamo',
-      demoLink: 'http://www.github.com',
+      gitLink:'https://github.com/fedamo/kpi-dashboard',
+      demoLink: 'http://fedamo.github.io/kpi-dashboard',
       avatarLabel:'Recipe',
       avatarLetter:'V',
-      avatarColor: '#3d72b4'
+      avatarColor: '#3d72b4',
+      databartext1: 'DATA',
+      databartext2: 'Marketing',
+      databartext3: 'PRODUCT',
+      databartext4: 'Dashboard',
     },{
       title: 'Analysis of Product Sales',
       img: barImg,
@@ -27,7 +32,11 @@ export default {
       demoLink: 'http://www.github.com',
       avatarLabel:'Recipe',
       avatarLetter:'R',
-      avatarColor: '#db2e56'
+      avatarColor: '#db2e56',
+      databartext1: 'DATA',
+      databartext2: 'Business',
+      databartext3: 'Product',
+      databartext4: 'Analysis',
     },
     {
       title: 'Algorithm Testing',
@@ -39,39 +48,27 @@ export default {
       demoLink: 'http://www.github.com',
       avatarLabel:'Recipe',
       avatarLetter:'S',
-      avatarColor: '#52b230'
+      avatarColor: '#52b230',
+      databartext1: 'DATA',
+      databartext2: 'Marketing',
+      databartext3: 'Product',
+      databartext4: 'Report',
     },
     {
       title: 'My Website',
       img: resumeImg,
       imgUrl: "url(" + chaosImg + ")",
       summary: 'Python / React / HTML / JS',
-      desc: 'A simple React app to present my analytics portfolio and professional resume online',
+      desc: 'An online portfolio created using React',
       gitLink:'http://www.github.com/fedamo',
       demoLink: 'http://www.github.com',
       avatarLabel:'Recipe',
       avatarLetter:'V',
-      avatarColor: 'red'
-    },{
-      title: 'Marketing KPI Dashboard',
-      img: chaosImg,
-      summary: 'Python / React / HTML / JS',
-      desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
-      gitLink:'http://www.github.com/fedamo',
-      demoLink: 'http://www.github.com',
-      avatarLabel:'Recipe',
-      avatarLetter:'V',
-      avatarColor: 'red'
-    },{
-      title: 'Marketing KPI Dashboard',
-      img: chaosImg,
-      summary: 'Python / React / HTML / JS',
-      desc: 'A simgple dashboard with interactive tools to explore Google AdWords campaign results',
-      gitLink:'http://www.github.com/fedamo',
-      demoLink: 'http://www.github.com',
-      avatarLabel:'Recipe',
-      avatarLetter:'P',
-      avatarColor: 'red'
+      avatarColor: 'red',
+      databartext1: 'DATA',
+      databartext2: 'Personal',
+      databartext3: 'Product',
+      databartext4: 'Portfolio',
     },
   ],
 };

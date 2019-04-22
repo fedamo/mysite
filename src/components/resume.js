@@ -23,7 +23,7 @@ class Resume extends Component {
             <div className="row section-intro" style={{marginBottom:0}}>
               <Fade top>
                 <div className="col-twelve" >
-                  <h5>Resume</h5>
+                  <h5>Resume </h5>
                   <h1>Experience & Education.</h1>
                   
                 </div>
@@ -40,68 +40,76 @@ class Resume extends Component {
                   <div className="timeline-wrap">
                     <div className="timeline-block">
                       <div className="timeline-ico">
-                        <i className="fa fa-graduation-cap" />
+                        <i className="fa fa-fire" />
                       </div>
                       <div className="timeline-header">
-                        <h3>UI Designer</h3>
-                        <p>July 2015 - Present</p>
+                        <h3>Analytics Specialist</h3>
+                        <p>July 2017 - Present</p>
                       </div>
                       <div className="timeline-content">
-                        <h4>Awesome Studio</h4>
+                        <h4>National Fire Protection</h4>
                         <p>
-                          Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex
-                          in magna consectetur nisi cupidatat laboris esse
-                          eiusmod deserunt aute do quis velit esse sed Ut
-                          proident cupidatat nulla esse cillum laborum occaecat
-                          nostrud sit dolor incididunt amet est occaecat nisi.
+                          A mission driven organisation turning looking to the future with the new data initiatives
+                           
+             
+                          
                         </p>
                       </div>
                     </div>
                     {/* /timeline-block */}
                     <div className="timeline-block">
                       <div className="timeline-ico">
-                        <i className="fa fa-graduation-cap" />
+                        <i className="fa fa-tv" />
                       </div>
                       <div className="timeline-header">
-                        <h3>Front-end Developer</h3>
-                        <p>July 2014 - June 2015</p>
+                        <h3>Marketing Effectiveness Manager</h3>
+                        <p>October 2016 - May 2017</p>
                       </div>
                       <div className="timeline-content">
-                        <h4>Super Cool Agency</h4>
+                        <h4>Virgin Media, Liberty Global</h4>
                         <p>
-                          Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex
-                          in magna consectetur nisi cupidatat laboris esse
-                          eiusmod deserunt aute do quis velit esse sed Ut
-                          proident cupidatat nulla esse cillum laborum occaecat
-                          nostrud sit dolor incididunt amet est occaecat nisi
-                          incididunt.
+                          Forecasting and 
                         </p>
                       </div>
                     </div>
                     {/* /timeline-block */}
                     <div className="timeline-block">
                       <div className="timeline-ico">
-                        <i className="fa fa-graduation-cap" />
+                        <i className="fa fa-bank" />
                       </div>
                       <div className="timeline-header">
-                        <h3>Web Designer</h3>
-                        <p>May 2013 - June 2014</p>
+                        <h3>Research Economist</h3>
+                        <p>July 2014 - May 2016</p>
                       </div>
                       <div className="timeline-content">
-                        <h4>Great Designs Studio</h4>
+                        <h4>Royal Bank of Scotland</h4>
                         <p>
-                          Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex
-                          in magna consectetur nisi cupidatat laboris esse
-                          eiusmod deserunt aute do quis velit esse sed Ut
-                          proident cupidatat nulla esse cillum laborum occaecat
-                          nostrud sit dolor incididunt amet est occaecat nisi
-                          incididunt.
-                        </p>
+                          Developed products for the research team including forecast models for inflation and economic growth. 
+                          
+                       </p>
                       </div>
                     </div>
+                    {/* /timeline-block */}
+                    <div className="timeline-block">
+                      <div className="timeline-ico">
+                        <i className="fa fa-bar-chart" />
+                      </div>
+                      <div className="timeline-header">
+                        <h3>Analyst - Marketing Analytics & Insights</h3>
+                        <p>July 2013 - June 2014</p>
+                      </div>
+                      <div className="timeline-content">
+                        <h4>Gain Theory</h4>
+                        <p>
+                          A fantastic training program set the most invaluable groundwork for a career in data. This company has been using econometrics to find the best marketing mix for decades, back when they still used paper to print regressions results.
+                          
+                       </p>
+                      </div>
+                    </div>
+                    {/* /timeline-block */}
                     {/* /timeline-block */}
                   </div>
-                  O{/* /timeline-wrap */}
+                  {/* /timeline-wrap */}
                 </div>
                 {/* /col-twelve */}
               </Zoom>
@@ -116,63 +124,36 @@ class Resume extends Component {
                 <div className="timeline-wrap">
                   <div className="timeline-block">
                     <div className="timeline-ico">
-                      <i className="fa fa-briefcase" />
+                      <i className="fa fa-graduation-cap" />
                     </div>
                     <div className="timeline-header">
                       <h3>Master Degree</h3>
-                      <p>July 2015 - Present</p>
+                      <p>July 2011 - July 2012</p>
                     </div>
                     <div className="timeline-content">
-                      <h4>University of Life</h4>
+                      <h4>Queen Mary University of London</h4>
                       <p>
-                        Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex
-                        in magna consectetur nisi cupidatat laboris esse eiusmod
-                        deserunt aute do quis velit esse sed Ut proident
-                        cupidatat nulla esse cillum laborum occaecat nostrud sit
-                        dolor incididunt amet est occaecat nisi.
+                        Msc. Finance and Econometrics
                       </p>
                     </div>
                   </div>
                   {/* /timeline-block */}
                   <div className="timeline-block">
                     <div className="timeline-ico">
-                      <i className="fa fa-briefcase" />
+                      <i className="fa fa-graduation-cap" />
                     </div>
                     <div className="timeline-header">
                       <h3>Bachelor Degree</h3>
                       <p>July 2014 - June 2015</p>
                     </div>
                     <div className="timeline-content">
-                      <h4>State Design University</h4>
+                      <h4>City University of London</h4>
                       <p>
-                        Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex
-                        in magna consectetur nisi cupidatat laboris esse eiusmod
-                        deserunt aute do quis velit esse sed Ut proident
-                        cupidatat nulla esse cillum laborum occaecat nostrud sit
-                        dolor incididunt amet est occaecat nisi incididunt.
+                        Bsc. Mathematics
                       </p>
                     </div>
                   </div>
-                  {/* /timeline-block */}
-                  <div className="timeline-block">
-                    <div className="timeline-ico">
-                      <i className="fa fa-briefcase" />
-                    </div>
-                    <div className="timeline-header">
-                      <h3>Bachelor Degree</h3>
-                      <p>May 2013 - June 2014</p>
-                    </div>
-                    <div className="timeline-content">
-                      <h4>Design College</h4>
-                      <p>
-                        Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex
-                        in magna consectetur nisi cupidatat laboris esse eiusmod
-                        deserunt aute do quis velit esse sed Ut proident
-                        cupidatat nulla esse cillum laborum occaecat nostrud sit
-                        dolor incididunt amet est occaecat nisi incididunt.
-                      </p>
-                    </div>
-                  </div>
+                 
                   {/* /timeline-block */}
                 </div>
                 {/* /timeline-wrap */}

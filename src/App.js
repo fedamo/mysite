@@ -10,20 +10,25 @@ import "./App.css";
 import SkillSection from "./components/SkillSection";
 import Resume from "./components/resume";
 import NavigationLinks from './components/NavigationLinks';
-import Projects from './components/Projects';
+import Projects from './components/projects';
 import { createHashHistory } from 'history'
 
-const browserHistory = createHashHistory()
+const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL + '/' });
 
+function demoAsyncCall() {
+  return new Promise((resolve) => setTimeout(() => resolve(), 2500));
+}
 class App extends Component {
+  
   render() {
+
     return (
       <div>
-        <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory} >
+        <Router  basename={process.env.PUBLIC_URL + '/'} onUpdate={() => window.scrollTo(0, 0)} history={hashHistory} >
           <TransitionSwitch fadeInTransitionDuration={10} component={Fader}>
-            <Route exact path="/" component={Header} />
+            <Route exact path={`/`} component={Header} />
             <Route path="/about" component={SkillSection} />
-            <Route path="/resume" component={Resume} />
+            {/* <Route path="/resume" component={Resume} /> */}
             <Route path="/projects" component={Projects}/>
           </TransitionSwitch>
         </Router>

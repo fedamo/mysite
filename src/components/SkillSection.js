@@ -21,9 +21,9 @@ class SkillSection extends Component {
             <div className="col-twelve">
               <Fade top when={true}>
               
-                <h5>About</h5>
+                
 
-                <h1 style={{paddingBottom:15}}>Hello, I'm Waylon.</h1>
+                <h1 style={{paddingBottom:0}}>Hello, I'm Waylon.</h1>
             
                 <div className="skills-header-icons">
                   {/* LinkedIn */}
@@ -60,15 +60,18 @@ class SkillSection extends Component {
                     <i className="fa fa-medium" aria-hidden="true" />
                   </a>
                 </div>
+                <p className = 'quote1' >"There's a way to do it better - find it."</p>
+                <p className='quote2'>    THOMAS EDISON</p>
               </Fade>
               <div class="intro-info">
 
    				<img src={myIMG} alt="Profile Picture"/>
 
    				<p className="lead">
+           
            I <span style={{fontWeight: 'bold'}}>deliver</span> connectivity between clients and their data. 
 
-          I <span style={{fontWeight: 'bold'}}>love</span> answering age old problems using new tech, informing decisions through clear narratives and compelling designs.  
+          I <span style={{fontWeight: 'bold'}}>love</span> finding solutions using the latest tech, informing decisions through clear narratives and compelling designs.  
 </p>
    			</div>   			
 
@@ -80,9 +83,9 @@ class SkillSection extends Component {
             <div className="col-six tab-full">
             
               <Fade left appear={true} when={true} opposite={true}>
-                <h3>My Story</h3>
+                <h3>Lowdown</h3>
                 <p style={{paddingBottom:25}}>
-                  I have over 7 years of Data Analytics experience at some outstandinging companies. Each position has given me asdlk asd asd 
+                7+ years analytics experience within Economics, Marketing, Telecoms and non-profit fields. 
                 </p>
 
                 <ul className="info-list">
@@ -116,7 +119,7 @@ class SkillSection extends Component {
                 <h3>Skills</h3>
 
                 <p className="pre-plot">
-                  I have over 7 years of experience in Data Analytics. I continue to learn new skills and technologies to optimize everything I do. Here are a few of my favourite tools:
+                  I continue to learn new skills to optimize my workflow. Here are a few of my favourite tools:
                 </p>
               </Fade>
               
@@ -141,7 +144,7 @@ class SkillSection extends Component {
               </Fade>
               <Fade right>
                 <a
-                  href="./images/chaos.png.png"
+                  href="./data/resume.doc"
                   title="Download CV"
                   className="button button-primary"
                   download

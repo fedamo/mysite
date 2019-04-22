@@ -55,6 +55,7 @@ class Projects extends React.Component {
                       background: item.imgUrl,
                       backgroundSize:'contain',
                       backgroundPosition: "center",
+                      backgroundRepeat:'no-repeat',
                       borderRadius: "2px 2px 0 0",
                       height: "220px",
                       maxWidth: "100%",
@@ -63,29 +64,29 @@ class Projects extends React.Component {
                     }}
                   />
                   <section className="article-body">
-                    <p className="article-tags">{item.summary}}</p>
-                    <h2 className="article-heading">{item.title}}</h2>
+                    <p className="article-tags">{item.summary}</p>
+                    <h2 className="article-heading">{item.title}</h2>
                     <p className="div-projects-p">{item.desc}</p>
                   </section>
                   <section className="chart">
                     <div
                       className="rating-bar-1 rating-small"
-                      data-content1="asd"
-                      data-content3="ASD"
+                      data-content1={item.databartext1}
+                      data-content3={item.databartext2}
                     />
                     <div
                       className="rating-bar-2 rating-large"
-                      data-content2="asd"
-                      data-content4="asda"
+                      data-content2={item.databartext3}
+                      data-content4={item.databartext4}
                     />
                   </section>
                   <footer className="article-footer">
                     <ul className="article-links">
                       <li>
-                        <a href="#">Github</a>
+                        <a href={item.gitLink} target="_blank" rel="noopener noreferrer">Github</a>
                       </li>
                       <li>
-                        <a href="#">Demo</a>
+                        <a href={item.demoLink}>Demo</a>
                       </li>
                     </ul>
                   </footer>

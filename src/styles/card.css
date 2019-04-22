@@ -4,7 +4,7 @@
 /* BASE */
 
 
-.div-projects {background: #ffff;
+.div-projects {background: rgb(255, 255, 255);
     margin: 0;
   border: 0;
   box-sizing: border-box;
@@ -41,8 +41,8 @@
   overflow: auto;
   position: relative;
   width: 400px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.075);
-   font-family: "Open Sans", sans-serif;}
+  box-shadow: 0 0 20px rgb(214, 212, 212);
+}
 
 /* .article-image {
   background: url(http://lorempixel.com/640/220/nature);

@@ -23,14 +23,14 @@ class NavigationLinks extends Component {
             />
             <Link to="/about">PROFILE</Link>
           </li>
-          <li>
+          {/* <li>
             <i
               onMouseEnter={this.play}
               className="fa-flag1 fa fa-circle-o-notch fa-spin fa-1x fa-fw"
               aria-hidden="true"
             />
             <Link to="/resume">RESUME</Link>
-          </li>
+          </li> */}
           <li>
             <i
               onMouseEnter={this.play}
