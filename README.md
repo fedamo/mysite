@@ -1,8 +1,13 @@
+## My Portfolio Website
+
+A small app built with React to share personal projects. 
+
+These projects are an opportunity to discover, learn and put into practice new technologies and share the results with others.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
