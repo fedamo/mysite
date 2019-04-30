@@ -52,7 +52,8 @@ class SectionLinks extends Component {
           </a>
 
           {/* Youtube */}
-          <a className="link-icons" target="_blank">
+          <a className="link-icons" target="_blank" href="mailto:fedamo@gmail.com?subject = Feedback&body = Message" rel="noopener noreferrer">
+            
             <i
               
               className="fa-flag3 fa fa-circle-o-notch fa-spin fa-3x fa-fw"

@@ -144,7 +144,7 @@ class SkillSection extends Component {
               </Fade>
               <Fade right>
                 <a
-                  href="./data/resume.doc"
+                  href="./data/resume.pdf"
                   title="Download CV"
                   className="button button-primary"
                   download

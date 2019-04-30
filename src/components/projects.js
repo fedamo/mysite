@@ -86,7 +86,7 @@ class Projects extends React.Component {
                         <a href={item.gitLink} target="_blank" rel="noopener noreferrer">Github</a>
                       </li>
                       <li>
-                        <a href={item.demoLink}>Demo</a>
+                        <a href={item.demoLink} target="_blank" rel="noopener noreferrer">Demo</a>
                       </li>
                     </ul>
                   </footer>
